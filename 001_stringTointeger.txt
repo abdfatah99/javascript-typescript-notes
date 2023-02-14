@@ -1,0 +1,1 @@
+parseInt() -> fungsi yang digunakan untuk mengubah tipe data bentukan menjadi integer

@@ -1,0 +1,26 @@
+Document Object Model
+  - setiap halaman web terletak pada sebuah jendela browser yang dapat dipertimbangkan
+    sebagai sebuah object
+  - document object => dokumen html yang ditampilkan di layar 
+                    => memiliki beberapa properti yang merujuk ke object lain yang dapat
+                       diakses dan modifikasi terhadap dokumen konten
+                       -> cara untuk mengakses dan memodifikasi dokumen kontent disebut
+                          DOCUMENT OBJECT MODEL / DOM
+                    => object tersebut diorganisasikan berdasarkan sebuah hirarki.
+                       -> Window Object -> bagian paling tinggi pada hirarki. bagian ini 
+                                           merupakan bagian terluar hirarki objek
+                       
+                       -> Document object -> setiap dokumen HTML yang dimuat pada sebuah 
+                                             jendela/layar 'dapat dikatakan' disebut 
+                                             document object. dokumen ini mengandung 
+                                             konten dari halaman yang ditampilkan
+                       
+                       -> Form object -> setiap bagian yang disertakan di dalam tag <form> 
+                                         ... </form> merupakan kumpulan form object
+                       
+                       -> Form control elements -> form object yang mengandung semua elemen
+                                                   yang merepresentasikan tampilan seperti 
+                                                   text fields, buttons, radio buttons, dan 
+                                                   checkboxes
+
+                                                   

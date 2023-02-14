@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Strings</h1>
+<h2>The indexOf() method</h2>
+
+<p>indexOf() returns the position of the first occurrence of a value in a string:</p>
+
+<p>Find "Welcome":</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "Hello world, welcome to the universe.";
+let result = text.indexOf("world");
+
+// jadi indexOf itu mengembalikan index pertama dari sebuah string yang dicari pada string yang ada 
+// -> tulisan di atas mengembalikan nilai 6 karna huruf pertama dari kata "world" berada pada index ke 6
+// mengembalikan nilai -1 kata yang dicari tidak ditemukan
+// case sensitif
+
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>

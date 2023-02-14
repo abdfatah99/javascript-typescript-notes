@@ -1,0 +1,13 @@
+what is the difference between two function Number(value) & parse(value) in javascript?
+
+  - Number(object) tries to convert the entire string to a number(which can be also be a 
+    float) 
+  - parseInt(object) parses up to first non-digit and returns whatever value has been 
+    parsed
+
+    e.g 
+    Number('123num')    -> return NaN
+    parseInt('123num')  -> return 123
+
+    complete format of parseInt => parseInt(object, radix)
+                                -> radix = the base of the integer to be parsed into
